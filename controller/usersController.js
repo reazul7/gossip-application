@@ -1,8 +1,6 @@
 // get users page
 function getUsers(req, res, next) {
-    res.render('users', {
-        title: 'Users - Gossip Application',
-    });
+    res.render('users');
 }
 
 module.exports = {
